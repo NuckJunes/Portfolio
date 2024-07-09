@@ -1,3 +1,10 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -22,4 +29,79 @@
 
 .home-section {
     margin-top: 0px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.image-right {
+    width: 40%;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.image-left {
+    width: 40%;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.text-right {
+    width: 60%;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.text-left {
+    width: 60%;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.projects {
+    display: flex;
+    padding: 10px;
+}
+
+.project-images {
+    width: 100%;
+    border-radius: 8%;
+    border-color: black;
+}
+
+#home-section {
+    margin: 0 auto;
+    width: 50%;
+    padding: 5px;
+    padding-top: 50px;
+    text-align: center;    
+}
+
+#about-section {
+    margin: 0 auto;
+    width: 75%;
+    padding: 5px;
+    text-align: center;
+}
+
+#projects-section {
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+#github-image {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
 }
