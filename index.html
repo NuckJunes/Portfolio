@@ -3,8 +3,9 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Nicholas Jones</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="topnav">
@@ -20,26 +21,41 @@
         <a href="https://github.com/NuckJunes">Github</a> <a href="./FastTrack_Resume.pdf">Resume</a>
     </div>
     <div id="about-section">
-        <h2>A little about me</h2>
-        <p>Here we have a longer description and technical skills</p>
+        <h2>ABOUT ME</h2>
+        <div>
+            <h3>Get to know me!</h3>
+            <p>I am a Software Developer with skills in Full Stack development. Check out the project section 
+                to see more of my work in Front-end and Back-end development. <br> 
+            </p>
+        </div>
+        <div>
+            <h3>Technical Skills</h3>
+            <p>skills, might make this a list</p>
+        </div>
     </div>
     <div id="projects-section">
         <h2>My Projects</h2>
         <div class="projects">
             <h3>Miami Course Planner</h3>
-            <p>Description of Miami Course Planner and Tech used</p>
+            <p>The Miami Course Planner was a senior capstone project developed using the Blazor framework within Miami
+                 Universities servers. It helped students plan our their 4/5 year degree.
+            </p>
+            <a href="https://sites.miamioh.edu/cse-senior-design-expo/2023/04/course-planner-2023-team1/">Link to Project</a>
         </div>
         <div class="projects">
             <h3>Social Media API</h3>
-            <p>Description of Social Media API and Tech used</p>
+            <p>A API that simulates a real social media site, written in Spring.</p>
+            <a href="https://github.com/fasttrackd-student-work/spring-assessment-social-media-june-2024-team-2">Link to Project</a>
         </div>
         <div class="projects">
             <h3>Schema Design</h3>
-            <p>Description of Schema Design and Tech used</p>
+            <p>The Schema Design project is database written in postgresQL that stores information on people, their locations, and interests.</p>
+            <a href="https://github.com/fasttrackd-student-work/java-assignment-schema-design-NuckJunes">Link to Project</a>
         </div>
         <div class="projects">
             <h3>Quizler</h3>
-            <p>Description of Quizler and Tech used</p>
+            <p>Quizler is a small application written in JavaScript that creates quizzes filled with questions and choices.</p>
+            <a href="https://github.com/fasttrackd-student-work/js-assignment-quizler-NuckJunes">Link to Project</a>
         </div>
         <div class="projects">
             <h3>Angular Project Here</h3>
@@ -47,7 +63,19 @@
     </div>
     <div id="contact-section">
         <h2>Contact Me</h2>
-        <p>here you can email me</p>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <label for="email">Name: </label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Name: </label>
+        <textarea type="message" id="message" name="message" required></textarea>
+        <br>
+
+        <button type="submit">Send</button>
+
     </div>
     <script src="index.js"></script>
 </body>

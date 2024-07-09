@@ -1,0 +1,25 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.home-section {
+    margin-top: 0px;
+}
