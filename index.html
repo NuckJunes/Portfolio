@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?faily=Montserrat:ital,wght@0,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="topnav">
@@ -21,7 +22,7 @@
         <h1>Nicholas Jones</h1>
         <img id="github-image" src="">
         <p id="github-bio">a</p>
-        <a id="github-link" href="https://github.com/NuckJunes">Github</a> <a id="resume-link" href="./FastTrack_Resume.pdf">Resume</a>
+        <a id="resume-link" href="./FastTrack_Resume.pdf">Resume</a> <br>
     </div>
     <div id="about-section">
         <h2>ABOUT ME</h2>
@@ -45,18 +46,16 @@
                 <img class="project-images" src="./CoursePlanner.png">
             </div>
             <div class="text-right">
-                <h3>Miami Course Planner</h3>
+                <a class="project-button" href="https://sites.miamioh.edu/cse-senior-design-expo/2023/04/course-planner-2023-team1/"><h3>Miami Course Planner</h3></a>
                 <p>The Miami Course Planner was a senior capstone project developed using the Blazor framework within Miami
                     Universities servers. It helped students plan our their 4/5 year degree.
                 </p>
-                <a href="https://sites.miamioh.edu/cse-senior-design-expo/2023/04/course-planner-2023-team1/">Link to Project</a>
             </div>
         </div>
         <div class="projects">
             <div class="text-left">
-                <h3>Social Media API</h3>
+                <a class="project-button" href="https://github.com/fasttrackd-student-work/spring-assessment-social-media-june-2024-team-2"><h3>Social Media API</h3></a>
                 <p>A API that simulates a real social media site, written in Spring.</p>
-                <a href="https://github.com/fasttrackd-student-work/spring-assessment-social-media-june-2024-team-2">Link to Project</a>
             </div>
             <div class="image-right">
                 <img class="project-images" src="./SocialMediaAPI.png">
@@ -67,16 +66,14 @@
                 <img class="project-images" src="./SchemaDesign.png">
             </div>
             <div class="text-right">
-                <h3>Schema Design</h3>
+                <a class="project-button" href="https://github.com/fasttrackd-student-work/java-assignment-schema-design-NuckJunes"><h3>Schema Design</h3></a>
                 <p>The Schema Design project is database written in postgresQL that stores information on people, their locations, and interests.</p>
-                <a href="https://github.com/fasttrackd-student-work/java-assignment-schema-design-NuckJunes">Link to Project</a>
             </div>
         </div>
         <div class="projects">
             <div class="text-left">
-                <h3>Quizler</h3>
+                <a class="project-button" href="https://github.com/fasttrackd-student-work/js-assignment-quizler-NuckJunes"><h3>Quizler</h3></a>
                 <p>Quizler is a small application written in JavaScript that creates quizzes filled with questions and choices.</p>
-                <a href="https://github.com/fasttrackd-student-work/js-assignment-quizler-NuckJunes">Link to Project</a>
             </div>
             <div class="image-right">
                 <img class="project-images" src="./Quizler.png">
@@ -85,20 +82,26 @@
     </div>
     <div id="contact-section">
         <h2>Contact Me</h2>
-        <label for="name">Name: </label>
-        <input type="text" id="name" name="name" required>
-        <br>
+        <form action="mailto:najones47@outlook.com" method="post" enctype="text/plain">
+            <label for="name">Name </label> <br>
+            <input type="text" id="name" name="name" required>
+            <br>
 
-        <label for="email">Email: </label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <label for="message">Message: </label>
-        <textarea type="message" id="message" name="message" required></textarea>
-        <br>
+            <label for="email">Email </label> <br>
+            <input type="email" id="email" name="email" required>
+            <br>
 
-        <button type="submit">Send</button>
+            <label for="message">Message </label> <br>
+            <textarea type="message" id="message" name="message" required></textarea>
+            <br>
 
+            <button type="submit">Send</button>
+        </form>
     </div>
+    <footer>
+        <a id="github-link" href="https://github.com/NuckJunes"><i class="fa fa-github" style="font-size:36px"></i></a>
+        <a id="linkedin-link" href="https://www.linkedin.com/in/nicholas-jones-373153231/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>

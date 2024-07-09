@@ -3,11 +3,19 @@ body {
     font-optical-sizing: auto;
     font-weight: 10;
     font-style: normal;
+    font-size: 1.4em;
+    color: #FBE9D0;
+    background-color: #244855;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #162c34;
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,15 +24,15 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #FBE9D0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .topnav a:hover {
-    background: #ddd;
-    color: black;
+    background: #FBE9D0;
+    color: #162c34;
 }
 
 .home-section {
@@ -74,8 +82,19 @@ body {
 
 .project-images {
     width: 100%;
+    border: solid 6px;
     border-radius: 8%;
-    border-color: black;
+    border-color: #1d3a45;
+}
+
+.project-button {
+    text-decoration: none;
+    color: #90AEAD;
+}
+
+.project-button:hover {
+    text-decoration: underline;
+    color: #9ab0ad;
 }
 
 #home-section {
@@ -83,7 +102,14 @@ body {
     width: 50%;
     padding: 5px;
     padding-top: 50px;
-    text-align: center;    
+    text-align: center; 
+    margin-bottom: 100px; 
+    animation: fadeIn 5s;  
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 #about-section {
@@ -91,17 +117,65 @@ body {
     width: 75%;
     padding: 5px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 #projects-section {
-    padding: 10px;
+    padding: 100px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
+#contact-section {
+    margin: 0 auto;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 100px;
+}
 
 
 #github-image {
     border-radius: 50%;
     width: 50%;
     height: 50%;
+}
+
+#contact-section label {
+    display: block;
+    text-align: left;
+}
+
+#contact-section input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#contact-section textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#github-link {
+    margin-right: 10px;
+    color: #FBE9D0;
+}
+
+#linkedin-link {
+    margin-left: 10px;
+    color: #FBE9D0;
+}
+
+#resume-link {
+    color: #E64833;
+    text-decoration: none;
+}
+
+#resume-link:hover {
+    color: #f84e34;
+    font-weight: bold;
 }
