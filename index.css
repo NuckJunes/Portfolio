@@ -13,15 +13,20 @@ footer {
     padding: 15px;
 }
 
+td {
+    padding: 15px;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #162c34;
     position: fixed;
     top: 0;
     width: 100%;
+    left: 0;
 }
 
-.topnav a {
+.hover-link {
     float: left;
     display: block;
     color: #FBE9D0;
@@ -30,7 +35,7 @@ footer {
     text-decoration: none;
 }
 
-.topnav a:hover {
+.hover-link:hover {
     background: #FBE9D0;
     color: #162c34;
 }
@@ -95,6 +100,20 @@ footer {
 .project-button:hover {
     text-decoration: underline;
     color: #9ab0ad;
+}
+
+#nav-icons a {
+    text-align: center;
+}
+
+#nav-icons {
+    padding-top: 8px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+#about-desc {
+    text-align: left;
 }
 
 #home-section {

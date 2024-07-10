@@ -13,10 +13,14 @@
 </head>
 <body>
     <div class="topnav">
-        <a class="active" href="#home-section">Home</a>
-        <a href="#about-section">About</a>
-        <a href="#projects-section">Projects</a>
-        <a href="#contact-section">Contact</a>
+        <a class="hover-link" href="#home-section">Home</a>
+        <a class="hover-link" href="#about-section">About</a>
+        <a class="hover-link" href="#projects-section">Projects</a>
+        <a class="hover-link" href="#contact-section">Contact</a>
+        <div id="nav-icons">
+            <a id="github-link" href="https://github.com/NuckJunes"><i class="fa fa-github" style="font-size:36px"></i></a>
+            <a id="linkedin-link" href="https://www.linkedin.com/in/nicholas-jones-373153231/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+        </div>
     </div>
     <div id="home-section">
         <h1>Nicholas Jones</h1>
@@ -29,13 +33,34 @@
         <div class="flex-container about">
             <div class="flex-child desc">
                 <h3>Get to know me!</h3>
-                <p>I am a Software Developer with skills in Full Stack development. Check out the project section 
-                    to see more of my work in Front-end and Back-end development. <br> 
+                <p id="about-desc">I am a Software Developer with skills in Full Stack development. A Miami University graduate
+                    seeking my first software development position. While I am still young and inexperienced,
+                    I learn quickly and am looking to find a place to expand my knowledge in the 
+                    world of software development. Check out the project section to see more of my work with Front-end and Back-end programming. <br>
                 </p>
             </div>
             <div class="flex-child skills">
                 <h3>Technical Skills</h3>
-                <p>skills, might make this a list</p>
+                <table>
+                    <tr>
+                        <td>Java</td>
+                        <td>C++</td>
+                        <td>JavaScript</td>
+                        <td>Angular</td>
+                    </tr>
+                    <tr>
+                        <td>Spring</td>
+                        <td>HTML5</td>
+                        <td>CSS3</td>
+                        <td>SQL</td>
+                    </tr>
+                    <tr>
+                        <td>TypeScript</td>
+                        <td>JDBC</td>
+                        <td>Jackson</td>
+                        <td>jQuery</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
@@ -48,14 +73,16 @@
             <div class="text-right">
                 <a class="project-button" href="https://sites.miamioh.edu/cse-senior-design-expo/2023/04/course-planner-2023-team1/"><h3>Miami Course Planner</h3></a>
                 <p>The Miami Course Planner was a senior capstone project developed using the Blazor framework within Miami
-                    Universities servers. It helped students plan our their 4/5 year degree.
+                    Universities servers,  where I served as a Front-end Developer and Scrum Master.
+                     It helped students plan our their 4/5 year degree at Miami.
                 </p>
             </div>
         </div>
         <div class="projects">
             <div class="text-left">
                 <a class="project-button" href="https://github.com/fasttrackd-student-work/spring-assessment-social-media-june-2024-team-2"><h3>Social Media API</h3></a>
-                <p>A API that simulates a real social media site, written in Spring.</p>
+                <p>A API that simulates a real social media site, allowing for users to create user profiles, post tweets,
+                     follow others, and more. It was written using Java and Spring.</p>
             </div>
             <div class="image-right">
                 <img class="project-images" src="./SocialMediaAPI.png">
@@ -99,8 +126,8 @@
         </form>
     </div>
     <footer>
-        <a id="github-link" href="https://github.com/NuckJunes"><i class="fa fa-github" style="font-size:36px"></i></a>
-        <a id="linkedin-link" href="https://www.linkedin.com/in/nicholas-jones-373153231/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+        <a id="github-link" href="https://github.com/NuckJunes"><i class="fa fa-github" style="font-size:48px"></i></a>
+        <a id="linkedin-link" href="https://www.linkedin.com/in/nicholas-jones-373153231/"><i class="fa fa-linkedin-square" style="font-size:48px"></i></a>
     </footer>
     <script src="index.js"></script>
 </body>
